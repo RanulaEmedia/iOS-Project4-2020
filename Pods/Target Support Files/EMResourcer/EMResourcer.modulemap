@@ -1,0 +1,6 @@
+framework module EMResourcer {
+  umbrella header "EMResourcer-umbrella.h"
+
+  export *
+  module * { export * }
+}

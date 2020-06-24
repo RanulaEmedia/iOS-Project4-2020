@@ -1,0 +1,56 @@
+PODS:
+  - Alamofire (4.9.1)
+  - EMResourcer (0.1.3):
+    - Alamofire (= 4.9.1)
+  - GoogleMaps (3.9.0):
+    - GoogleMaps/Maps (= 3.9.0)
+  - GoogleMaps/Base (3.9.0)
+  - GoogleMaps/Maps (3.9.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.9.0):
+    - GoogleMaps/Base (= 3.9.0)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+
+DEPENDENCIES:
+  - EMResourcer (from `https://bitbucket.org/elegantmedia/emresourcer`, tag `0.1.3`)
+  - GoogleMaps
+  - GooglePlaces
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - GoogleMaps
+    - GooglePlaces
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  EMResourcer:
+    :git: https://bitbucket.org/elegantmedia/emresourcer
+    :tag: 0.1.3
+
+CHECKOUT OPTIONS:
+  EMResourcer:
+    :git: https://bitbucket.org/elegantmedia/emresourcer
+    :tag: 0.1.3
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  EMResourcer: ac075ce524b00589f90ec96721a4245de0ba2eed
+  GoogleMaps: 4b5346bddfe6911bb89155d43c903020170523ac
+  GooglePlaces: 1634d019549b969d40fe0ccb0b9513055adebe01
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+
+PODFILE CHECKSUM: fb91df0e42d0d2557b398ae96ba21c421b264baa
+
+COCOAPODS: 1.9.3
